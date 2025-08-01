@@ -15,6 +15,7 @@ function showLogin(){
 
 function handleSignup(event){
     event.preventDefault();
+    console.log("Sign Up Submitted")
     const user = {
         firstname: document.getElementById('signup-firstname').value,
         lastname: document.getElementById('signup-lastname').value,
